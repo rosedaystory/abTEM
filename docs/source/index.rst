@@ -15,7 +15,7 @@ jit-compiled Numba code and high-performance libraries, maintaining speed while 
 abTEM works with the Atomic Simulation Environment and the density functional theory code GPAW to provide an seamless
 environment for simulating images from first principles.
 
->>> from ase import read
+>>> from ase.io import read
 >>> from abtem.waves import PlaneWave
 >>> atoms = read('SrTiO.cif')
 >>> plane_wave = PlaneWave(sampling=0.01, energy=300e3)
